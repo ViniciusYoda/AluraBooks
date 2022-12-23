@@ -3,7 +3,8 @@
    padding: 1em;
 }
 
-.contato__titulo, .contato__texto {
+.contato__titulo,
+.contato__texto {
    background: var(--azul-degrade);
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
@@ -53,5 +54,11 @@
 
    .contato__email {
        width: 30%;
+   }
+}
+
+@media screen and (min-width: 1728px) {
+   .contato {
+       padding: 3em 20vw;
    }
 }
